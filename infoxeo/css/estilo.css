@@ -1,0 +1,110 @@
+/**
+ * Arquivo de formatação para o site Infoxeo
+ * Projeto - InfoXeo
+ * Autor: Prof.: Xeo;
+ * Data: 24/05/2019;
+ * update: 29/05/2019;
+ */
+
+ /*resets*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+/*seletor para ID */
+/* Estrutura do layout */
+#topo, #menu, #geral, #rodape{
+	width: 1280px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+/*Topo */
+#topo{
+	height: 200px;
+}
+
+#topo .logo{
+	display: table;
+	width: 200px;
+	height: 200px;
+}
+
+#topo .logo h1{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#topo .logo h1 a{
+	text-decoration: none;
+}
+
+#menu ul{
+	display: inline;
+}
+#menu ul li{
+	width: 200px;
+	display: inline-grid;
+	background: black;
+}
+#menu ul li a{
+	text-decoration: none;
+	width: 200px;
+	padding: 5px;
+	color: #fff;
+}
+
+#menu ul li a:hover{
+	background: blue;
+	color: #fff;
+}
+
+/*Geral*/
+#geral{
+	display: flex;	
+}
+/* seletor de classe é "." */
+#geral .destaques{
+	width: 50%;
+	display: block;
+	margin: 10px;
+	float: left;
+}
+#geral .destaques h2{
+	background: #dedede;
+	text-align: center;
+	font-size: 16px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+#geral .destaques .destaque-banner{
+	border: 1px solid blue;
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	height: 200px;
+	/*margin: 20px auto 20px;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#geral .destaques .texto p{
+	text-align: justify;
+	margin: 10px;
+}
+
+#geral .destaques .destaque-banner img{
+	max-width: 100%;
+}
+#rodape{
+	clear: both;
+	text-align: center;
+}
+

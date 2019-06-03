@@ -1,0 +1,85 @@
+/**
+ * Arquivo de formatação para o site Infoxeo
+ * Projeto - InfoXeo
+ * Autor: Prof.: Xeo;
+ * Data: 24/05/2019;
+ */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#topo{
+	margin: 0 auto;
+	width: 980px;
+	height: 200px;
+	border: 1px solid red;
+}
+
+
+#topo .logo{
+	display: table;
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
+}
+
+#topo .logo h1{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+/*menu*/
+#menu{
+	margin: 0 auto;
+	width: 980px;
+	border: 1px solid red;
+}
+
+#menu ul li {
+	display: inline;
+}
+
+/*corpo do site*/
+#geral{
+	margin: 0 auto;
+	width: 980px;
+	border: 1px solid green;
+	display: table;	
+	padding: 10px;
+}
+
+#geral .destaques{
+	width: 50%;
+	display: block;
+	float: left;
+	padding: 10px;
+}
+
+#geral .destaques h2{
+	background-color: #DEDEDE;
+}
+#geral .destaques .destaque-banner{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+
+#geral .destaques .destaque-banner img{
+	width: 50%;
+	border: 1px solid red;
+	height: 100px;
+	margin: 10px auto;
+	display: block;
+}
+
+#rodape{
+	clear: both;
+	margin: 0 auto;
+	width: 980px;
+	border: 1px solid red;	
+}
+#rodape .footer .texto{
+}
